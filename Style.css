@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+
+body {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://thumbs.dreamstime.com/b/natural-white-marble-texture-skin-tile-wallpaper-luxurious-background-design-art-work-stone-ceramic-wall-interiors-b-154173635.jpg);
+
+  }
+  
+  .search {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    
+  }
+  
+  .search a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .search a:hover {
+    background-color: rgb(146, 31, 31);
+    color: black;
+  }
+  
+  .search a.homecolour {
+    background-color: #000000;
+    color: rgb(138, 88, 218);
+  }
+  
+  .search input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 14px;
+
+  }
+  .search .cart {
+    width: 00px;
+    height: 400px;
+  }
+  .header {
+    padding: 60px;
+    text-align: center;
+    background: #91a09d;
+    color: white;
+    font-size: 30px;
+    padding-left: 33.9%;
+    padding-right: 34.2%;
+    text-align: center;
+  }
+
+
+  .sidebar {
+    width: 130px;
+    display: block;
+    z-index: 1;
+    top: 230px;
+    left: 30px;
+    bottom: 0px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+    margin-top: 50px;
+    border: solid; 
+    overflow: hidden;
+   }
+
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  .sidebar a.hover {
+    background-color: #130505;
+    color: white;
+  }
+
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+  .dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    padding: 24px;
+    margin-bottom: 14;
+  }
+
+  .sidebar {
+    position: fixed;
+    display: inline-block;
+    height: 200px;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: black;
+  }
+
+  .dropdown-content a:hover {background-color: #ddd;}
+
+  .sidebar:hover .dropdown-content {display: block;}
+
+  .sidebar:hover .dropbtn {background-color: #3e8e41;}
+
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 50px;
+  }
+
+  div.main-container {
+    margin: auto;
+    border: 1px solid black;
+    float: left;
+    height: 586;
+    width: 1318;
+    display: flex;
+    margin-top: 268px;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .flex-container {
+    display: flex;
+  }
+
+  .flex-container .header {
+    border: 2px solid green;
+    display: flex;
+    margin: auto;
+  }
+
+  .main-container .small-plate1 {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    height: 254;
+    margin: left;
+    margin-top: 20px;
+    width: 200px;
+    margin-top: 110px;
+    flex: auto;
+  }
+
+  .main-container .small-plate2 {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    height: 254;
+    margin: left;
+    margin-top: 20px;
+    width: 200px;
+    margin-top: 110px;
+    flex: auto;
+  }
+  
+  .main-container .small-plate3 {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    height: 254;
+    margin: left;
+    margin-top: 20px;
+    width: 200px;
+    margin-top: 110px;
+    flex: auto;
+    margin-right: 10%;
+  }
+
+  .main-container .medium-plate1 {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    height: 254;
+    margin: left;
+    margin-top: 20px;
+    width: 200px;
+    margin-top: 110px;
+  }
+
+  .main-container .large-plate1 {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    height: 254;
+    margin: left;
+    margin-top: 20px;
+    width: 200px;
+    margin-top: 110px;
+  }
+
+  .thumbnail {
+    width: 200px;
+    padding: px;
+    margin: px;   
+    border-radius: 50%;
+
+  }
+
+  .banner {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    padding-right: 200px;
+  }
+
+  .button {
+    text-align: center;
+    padding: px 20px;
+    border: solid;  
+    font-size: 16px;
+    opacity: 0.6;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #000000;
+    color: white;
+    margin-top: 0px;
+    
+}
+
+.button:hover {opacity: 1}
+
+
+.first {
+    background-color: rgb(52, 34, 217);
+    color: white;
+    height: 34px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: #000000;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    
+  }
+
+  p:hover {
+    background-color: #3d1cc2;
+    transition-duration: 0.4s;
+
+  }
+
+  .second {
+    background-color: red;
+  }
+
+  .listing {
+    background-color: #3e8e41;
+    border: #000000 solid;
+    border-width: 5px;
+    padding: 20px;
+    margin-bottom: 12px;
+    width: 400px;
+    margin-left: 40px;
+
+  }
+
+  .bold {
+    color: #ddd;
+  }
+
+  .price {
+    background-color: #f1f1f1;
+  }
+
+  .footer-container {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      color: white;
+      text-align: center;
+      background-color: #000000;
+
+  }
+
+  .flex {
+    display: flex;
+    flex: auto;
+    background-color: #000000;
+  }
+
+  .navbar {
+    padding-left: 59%;
+    background-color: #04AA6D;
+    border: #000000 solid;
+  }

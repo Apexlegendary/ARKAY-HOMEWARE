@@ -1,0 +1,11 @@
+.flex {
+    display: flex;
+    flex: auto;
+    background-color: #000000;
+  }
+
+  .navbar {
+    padding-left: 59%;
+    background-color: #04AA6D;
+    border: #000000 solid;
+  }
